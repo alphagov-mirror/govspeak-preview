@@ -16,9 +16,16 @@ gem 'govuk_frontend_toolkit', '1.3.0'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '~>4.0.3'
-  gem 'coffee-rails', '~>4.0.0'
+  gem 'sass-rails', '~> 4.0.3'
+  gem 'coffee-rails', '~> 4.0.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'uglifier'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+  gem 'capybara'
+  gem 'poltergeist'
+  # gem 'wraith'
 end
