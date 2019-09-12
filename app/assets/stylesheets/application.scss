@@ -3,6 +3,10 @@
 @import "design-patterns/buttons";
 @import "govuk_publishing_components/all_components";
 
+html {
+  font-size: 100%;
+}
+
 #global-header-bar,
 #global-breadcrumb,
 #global-cookie-message,
